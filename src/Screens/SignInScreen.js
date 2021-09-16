@@ -35,6 +35,7 @@ export default function SignInScreen({ navigation }) {
             await auth.signInWithEmailAndPassword(email.value, password.value);
 
             const {uid, email: emailUser, displayName } = auth.currentUser
+            console.log(auth.currentUser)
             dispatch(signIn({uid, email: emailUser, displayName }))
 
             const token = await AsyncStorage.getItem('token');
