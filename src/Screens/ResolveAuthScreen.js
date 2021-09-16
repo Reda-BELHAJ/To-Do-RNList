@@ -9,12 +9,6 @@ const auth = Firebase.auth();
 const ResolveAuthScreen = ({ navigation }) => {
     const dispatch = useDispatch()
 
-    const getCred = async (token) => {
-        await Firebase.database().ref('users/' + token ).once("value").then(function(snapshot) {
-            setValues(snapshot.val())
-        })
-    } 
-
     const tryLocalSignIn =  async () => {
         const token = await AsyncStorage.getItem('token');
         if (token) {
