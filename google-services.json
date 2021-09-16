@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845002474049",
+    "firebase_url": "https://to-do-rnapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "to-do-rnapp",
+    "storage_bucket": "to-do-rnapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845002474049:android:4bd292785fe832f4eb7cc0",
+        "android_client_info": {
+          "package_name": "com.todo.list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845002474049-r06unr4a6cic821k41vih09mmhtct7kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3PhLsNB3OUZ_eJ_KGLEHJS4lI0Qs-LDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845002474049-r06unr4a6cic821k41vih09mmhtct7kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
