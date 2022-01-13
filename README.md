@@ -7,3 +7,6 @@ This project is a React Native To-Do Mobile App.
 - cd To-Do-RNList
 - npm install
 - react-native start or npm start
+
+## Some Views
+
